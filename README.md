@@ -35,6 +35,9 @@ To get started with this Tic-Tac-Toe game, follow these steps:
 
 
 
+![tic tac toe](https://github.com/user-attachments/assets/e03c8ca9-c28d-42ed-9546-5e69aedb4ddd)
+
+
 
 
 
