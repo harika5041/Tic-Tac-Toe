@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f6f7f7;
+}
+
+.container {
+    
+    /* background:#2196f3; */
+    text-align: center;
+    
+}
+h1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+.board
+{
+   
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 5px;
+    margin: 20px auto;
+    background-color: #333;
+    border-radius: 5px;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    background-color: #5eb7f2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    cursor: pointer;
+    user-select: none;
+    transition: background-color 0.3s;
+    color: transparent; 
+}
+
+.cell.X {
+    color:rgb(252, 8, 8);
+}
+
+.cell.O {
+    color: #000e06;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#message {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
